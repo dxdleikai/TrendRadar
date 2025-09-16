@@ -57,6 +57,8 @@
 
 召回
 
+黄金
+
 谷歌
 google
 gemini
