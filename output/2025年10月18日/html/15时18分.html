@@ -1,0 +1,130 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-18 15:18:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">7</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757419" target="_blank" class="news-link">何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时18分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757390" target="_blank" class="news-link">美国区域银行再陷危机，高盛直呼“太疯狂”，这是客户最关心的三个问题！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31801954" target="_blank" class="news-link">何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话</a> [9] <font color='grey'>- 15时18分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9D%A8%E6%8C%AF%E5%AE%81%E5%BE%97%E7%9F%A5%E5%8E%9F%E5%AD%90%E5%BC%B9%E6%B2%A1%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%8F%82%E5%8A%A0%E5%93%AD%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E6%259D%25A8%25E6%258C%25AF%25E5%25AE%2581%25E5%25BE%2597%25E7%259F%25A5%25E5%258E%259F%25E5%25AD%2590%25E5%25BC%25B9%25E6%25B2%25A1%25E7%25BE%258E%25E5%259B%25BD%25E4%25BA%25BA%25E5%258F%2582%25E5%258A%25A0%25E5%2593%25AD%25E4%25BA%2586%2523%26dgr%3D0%26pos%3D15%26filter_type%3Drealtimehot%26c_type%3D31%26stream_entry_id%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D16%26realpos%3D16%26flag%3D1%26display_time%3D1760771293%26pre_seqid%3D176077129393003606941128" target="_blank" class="news-link">杨振宁得知原子弹没美国人参加哭了</a> [16] <font color='grey'>- 15时18分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562161809495670794/" target="_blank" class="news-link">美国纪录片预告：核设施上空现UFO</a> [18] <font color='grey'>- 15时18分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9D%A8%E6%8C%AF%E5%AE%812015%E5%B9%B4%E6%94%BE%E5%BC%83%E7%BE%8E%E5%9B%BD%E5%9B%BD%E7%B1%8D" target="_blank" class="news-link">杨振宁2015年放弃美国国籍</a> [20] <font color='grey'>- 15时18分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345882&amp;amp;topic_name=%E8%8D%89%E5%8F%B0%E7%8F%AD%E5%AD%90%2C%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E6%B5%B7%E6%8A%A5%E6%94%BE%E9%94%99%E6%88%98%E8%88%B0" target="_blank" class="news-link">草台班子,美国海军海报放错战舰</a> [29] <font color='grey'>- 15时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">限定</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345918&amp;amp;topic_name=10%E6%9C%8817%E6%97%A5%E7%AC%91%E6%96%99%E9%99%90%E5%AE%9A" target="_blank" class="news-link">10月17日笑料限定</a> [7] <font color='grey'>- 15时18分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345886&amp;amp;topic_name=10%E6%9C%8816%E6%97%A5%E7%AC%91%E6%96%99%E9%99%90%E5%AE%9A" target="_blank" class="news-link">10月16日笑料限定</a> [20] <font color='grey'>- 15时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">黄金</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%BB%84%E9%87%91%E4%B8%BA%E4%BD%95%E5%B1%A1%E5%88%9B%E6%96%B0%E9%AB%98" target="_blank" class="news-link">黄金为何屡创新高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时18分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7561551906565259273/" target="_blank" class="news-link">黄金白银大跳水</a> [21] <font color='grey'>- 15时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">发售</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345873&amp;amp;topic_name=%E5%BF%8D%E9%BE%99%E5%88%B6%E4%BD%9C%E4%BA%BA%E5%80%92%E5%9C%A8%E6%96%B0%E4%BD%9C%E5%8F%91%E5%94%AE%E5%89%8D%E5%A4%95" target="_blank" class="news-link">忍龙制作人倒在新作发售前夕</a> [30] <font color='grey'>- 15时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">发布</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1961104367907238712" target="_blank" class="news-link">我国首份城市综合发展指数报告发布，北京、深圳、上海综合排名前三，哪些内容值得关注？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">苹果 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone17%E8%A2%AB%E6%9B%9D%E6%9C%BA%E8%BA%AB%E8%A4%AA%E8%89%B2%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523iPhone17%25E8%25A2%25AB%25E6%259B%259D%25E6%259C%25BA%25E8%25BA%25AB%25E8%25A4%25AA%25E8%2589%25B2%2523%26dgr%3D0%26pos%3D29%26filter_type%3Drealtimehot%26c_type%3D31%26stream_entry_id%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D30%26realpos%3D30%26flag%3D0%26display_time%3D1760771293%26pre_seqid%3D176077129393003606941128" target="_blank" class="news-link">iPhone17被曝机身褪色</a> [30] <font color='grey'>- 15时18分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562416129633701419/" target="_blank" class="news-link">英伟达退出 国产AI芯片要崛起了吗</a> [22] <font color='grey'>- 15时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7562161809495670794/" target="_blank" class="news-link">美国纪录片预告：核设施上空现UFO</a> [18]</li><li><a href="https://www.toutiao.com/trending/7562416129633701419/" target="_blank" class="news-link">英伟达退出 国产AI芯片要崛起了吗</a> [22]</li></ul></div>
+    </body>
+    </html>
+    
