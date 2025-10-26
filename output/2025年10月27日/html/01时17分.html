@@ -1,0 +1,122 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-27 01:17:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1965079758955050850" target="_blank" class="news-link">如何评价「AI 正在造就一个极度不平衡的经济结构」的观点？</a> [9] <font color='grey'>- 01时17分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757917" target="_blank" class="news-link">特斯拉AI负责人首次揭秘FSD自动驾驶方法论：为什么我们选择端到端？</a> [10] <font color='grey'>- 01时17分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BD%91%E6%B0%91%E7%94%A8AI%E7%BC%96%E9%80%A03%E5%84%BF%E5%AD%90%E4%B8%8D%E5%85%BB%E8%80%81%E4%BA%BA%E8%A2%AB%E7%BD%9A" target="_blank" class="news-link">网民用AI编造3儿子不养老人被罚</a> [11] <font color='grey'>- 01时17分</font><br>[知乎] <a href="https://www.zhihu.com/question/1965049071443075345" target="_blank" class="news-link">AI 模型投资对决中，Qwen 后期交易回报率反超 DeepSeek 登顶，如何评价该比赛及最终结果？</a> [12] <font color='grey'>- 01时17分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2180802" target="_blank" class="news-link">电子宠物“卖爆了”、机器狗定价不超300元接入三款热门模型！AI玩具加速成熟 哪些玩家布局？</a> [13] <font color='grey'>- 01时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">黄金</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346238&amp;amp;topic_name=%E6%89%93%E9%80%A0%E9%BB%84%E9%87%91%E8%88%B0%E9%98%9F%2C%E6%87%82%E7%8E%8B%E5%92%8C%E2%80%9C%E9%87%91%E2%80%9D%E6%9D%A0%E4%B8%8A%E4%BA%86" target="_blank" class="news-link">打造黄金舰队,懂王和“金”杠上了</a> [6] <font color='grey'>- 01时17分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757916" target="_blank" class="news-link">“人人都预期”的黄金崩盘发生了，现在人人都等着抄底？</a> [7] <font color='grey'>- 01时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8nm4emMTaqf" target="_blank" class="news-link">胡锡进：美国最铁杆的盟友，现在却被特朗普政府百般羞辱</a> [7] <font color='grey'>- 01时17分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346230&amp;amp;topic_name=%E7%BE%8E%E5%9B%BD%E8%80%81%E5%93%A5%E8%83%86%E5%AD%90%E5%A4%A7%2C%E7%B2%AA%E4%B8%8D%E9%A1%BE%E8%BA%AB%E9%97%AF%E5%8D%B0%E5%BA%A6" target="_blank" class="news-link">美国老哥胆子大,粪不顾身闯印度</a> [20] <font color='grey'>- 01时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2180655" target="_blank" class="news-link">养老基金Q3重仓股曝光！新进20只个股前十大流通股东榜，鼎通科技获增持家数最多</a> [6] <font color='grey'>- 01时17分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31839165" target="_blank" class="news-link">新城市志︱中国科技城，争当文旅优等生</a> [9] <font color='grey'>- 01时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">限定</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346221&amp;amp;topic_name=10%E6%9C%8825%E6%97%A5%E7%AC%91%E6%96%99%E9%99%90%E5%AE%9A" target="_blank" class="news-link">10月25日笑料限定</a> [18] <font color='grey'>- 01时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">抽签</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E7%91%9E%E5%A3%AB%E8%BD%AE%E6%8A%BD%E7%AD%BE" target="_blank" class="news-link">如何评价瑞士轮抽签</a> [9] <font color='grey'>- 01时17分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>贴吧 (1 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346238&amp;amp;topic_name=%E6%89%93%E9%80%A0%E9%BB%84%E9%87%91%E8%88%B0%E9%98%9F%2C%E6%87%82%E7%8E%8B%E5%92%8C%E2%80%9C%E9%87%91%E2%80%9D%E6%9D%A0%E4%B8%8A%E4%BA%86" target="_blank" class="news-link">打造黄金舰队,懂王和“金”杠上了</a> [6]</li></ul></div>
+    </body>
+    </html>
+    
